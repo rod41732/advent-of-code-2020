@@ -33,7 +33,7 @@ int main() {
         mn = min(mn, qs[i]-qs[i-1]);
         mx = max(mx, qs[i]-qs[i-1]);
       }
-      printf("%lld\n", mx + mn);
+      printf("%lld\n", mx + mn); // 76688505
       break;
     }
 
